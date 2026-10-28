@@ -1,0 +1,5 @@
+Notebook	Verified task and methods	Verified evaluation or outputs
+Assignment One	Decision tree classifying hospitalization billing ≥$25,000 using eight demographic, clinical, insurance, and stay variables; one-hot encoding; stratified 70/30 split.	50.64% accuracy, below the 51.18% majority-class baseline. Includes confusion matrix, classification report, tree rules, and feature importance.
+Assignment Two	Random forests comparing 10–200 trees on the same classification task.	Final 100-tree model: 56.20% accuracy, 5.02 percentage points above baseline. Age and length of stay had the highest feature importance.
+Assignment Three	Billing-amount regression using standardized predictors and LASSO with 10-fold cross-validation.	RMSE $14,213.74; R² approximately 0. All 34 encoded predictor coefficients were shrunk to zero.
+Assignment Four	K-means on standardized age, billing amount, and length of stay; inertia and sampled silhouette comparisons.	Four-cluster model with cluster profiles and visualizations. Saved silhouette: 0.2620 for K=4, versus 0.2689 for K=5.
